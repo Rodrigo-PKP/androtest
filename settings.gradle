@@ -1,0 +1,3 @@
+rootProject.name='vumlab'
+include ':app'
+include ':app:numberwizard'

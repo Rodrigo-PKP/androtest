@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "623214967424",
+    "firebase_url": "https://pkp-lab.firebaseio.com",
+    "project_id": "pkp-lab",
+    "storage_bucket": "pkp-lab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623214967424:android:3de40b608354fc987b8465",
+        "android_client_info": {
+          "package_name": "com.example.vumlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623214967424-6s72jtdkmn614b10b3rdo009e45rm97u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLjB5z6-OgLaBpgqS3q1pvW8-QkCVwMIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623214967424-6s72jtdkmn614b10b3rdo009e45rm97u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
