@@ -54,7 +54,7 @@ fun FirestoreHelper.instantiateUser(userID: String): Any? {
     var data: DocumentSnapshot? = null
     var res: User? = null
 
-    GS.launch(Dispatchers.IO) {
+    GS.launch(Dispatchers.Default) {
         data = withContext(Dispatchers.IO) {
             return@withContext try {
                 FirestoreHelper().documentQuery("Users/${userID}").get().await()  //.toObject<User>()
@@ -64,9 +64,8 @@ fun FirestoreHelper.instantiateUser(userID: String): Any? {
         }
     }
     //res = if (!data) User() else data!!.toObject<User>()
-    //res = data!!.toObject<User>()
-    //return res
-
+    res = data!!.toObject<User>()
+    return res
 }
 
 
